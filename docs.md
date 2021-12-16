@@ -1,0 +1,2 @@
+- see rust version: `rustc --version`
+- compiling: `rustc [path to file]`

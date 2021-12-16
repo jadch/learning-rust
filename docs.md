@@ -2,3 +2,5 @@
 - compiling: `rustc [path to file]`
 - see cargo version: `cargo --version`
 - creating a new project with cargo: `cargo new [project name]`
+- build a project with cargo: `cargo build` (creates an executable file in target/debug/[project name])
+- build and run: `cargo run`

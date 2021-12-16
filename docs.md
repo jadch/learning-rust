@@ -1,2 +1,4 @@
 - see rust version: `rustc --version`
 - compiling: `rustc [path to file]`
+- see cargo version: `cargo --version`
+- creating a new project with cargo: `cargo new [project name]`

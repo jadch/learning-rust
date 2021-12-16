@@ -4,3 +4,5 @@
 - creating a new project with cargo: `cargo new [project name]`
 - build a project with cargo: `cargo build` (creates an executable file in target/debug/[project name])
 - build and run: `cargo run`
+- checking if you can compile: `cargo check`
+- compiling with optimizations: `cargo build --release`

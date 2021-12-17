@@ -6,3 +6,4 @@
 - build and run: `cargo run`
 - checking if you can compile: `cargo check`
 - compiling with optimizations: `cargo build --release`
+- updating dependencies: `cargo update`

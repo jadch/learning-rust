@@ -19,7 +19,10 @@ fn main() {
         match user_guess.cmp(&secret_num) {
             Ordering::Less => println!("secret number is higher than {}. Try again", user_guess),
             Ordering::Greater => println!("secret number is lower than {}. Try again", user_guess),
-            Ordering::Equal => println!("Woohoo"),
+            Ordering::Equal => {
+                println!("Woohoo");
+                break;
+            }
         }
     }
 }

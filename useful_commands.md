@@ -1,9 +1,11 @@
 - see rust version: `rustc --version`
-- compiling: `rustc [path to file]`
 - see cargo version: `cargo --version`
+
 - creating a new project with cargo: `cargo new [project name]`
-- build a project with cargo: `cargo build` (creates an executable file in target/debug/[project name])
-- build and run: `cargo run`
+- building a project with cargo: `cargo build` (creates an executable file in target/debug/[project name])
+- building and running a project: `cargo run`
+
+- compiling a file: `rustc [path to file]`
 - checking if you can compile: `cargo check`
 - compiling with optimizations: `cargo build --release`
 - updating dependencies: `cargo update`

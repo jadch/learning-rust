@@ -1,6 +1,6 @@
 enum IpAddressKind {
-    V4,
-    V6,
+    V4(u8, u8, u8, u8),
+    V6(String),
 }
 
 struct IpAddress {
@@ -9,11 +9,5 @@ struct IpAddress {
 }
 
 fn main() {
-    let four: IpAddressKind = IpAddressKind::V4;
-    let six: IpAddressKind = IpAddressKind::V6;
-
-    let localhost: IpAddress = IpAddress {
-        kind: IpAddressKind::V4,
-        address: String::from("127.0.0.1"),
-    };
+    let localhost: IpAddressKind = IpAddressKind::V4(127, 0, 0, 1);
 }

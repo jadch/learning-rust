@@ -4,6 +4,7 @@ Repo where I follow along the Rust book and tutorials, with the aim of learning 
 #### Doc
 - [The Rust book](https://doc.rust-lang.org/book/title-page.html)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
 
 #### Cool youtube channels
   - [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty/videos)

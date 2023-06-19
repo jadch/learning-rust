@@ -1,5 +1,5 @@
-// https://www.sheshbabu.com/posts/rust-module-system/
+// Follow along https://www.sheshbabu.com/posts/rust-module-system/
 
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, from main in main.rs !");
 }

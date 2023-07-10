@@ -1,8 +1,8 @@
-mod problem_3;
+mod problem_4;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_3::largest_prime_factor(600851475143, 1);
+    let solution = problem_4::largest_palindrome_product();
     println!("solution: {}", solution);
 }

@@ -68,4 +68,11 @@ mod tests {
         assert_eq!(smallest_multiple(10), 2520);
         assert_eq!(smallest_multiple(20), 232792560);
     }
+
+    #[test]
+    fn is_prime_tests() {
+        assert_eq!(is_prime(7), true);
+        assert_eq!(is_prime(13), true);
+        assert_eq!(is_prime(60), false);
+    }
 }

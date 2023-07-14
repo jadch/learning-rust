@@ -1,9 +1,8 @@
-mod problem_5;
-mod problem_7;
+mod problem_8;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_7::nth_prime(10001);
+    let solution = problem_8::largest_product_in_series(4);
     println!("solution: {}", solution);
 }

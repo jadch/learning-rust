@@ -38,8 +38,10 @@ pub fn smallest_multiple(limit: i64) -> i64 {
 pub fn is_prime(number: i64) -> bool {
     let mut k: i64 = 1;
 
-    if vec![1, 2, 3, 5].iter().any(|&x| x == number) {
+    if vec![2, 3, 5].iter().any(|&x| x == number) {
         return true;
+    } else if number == 1 {
+        return false;
     }
 
     if number % 2 == 0 || number % 5 == 0 || number % 3 == 0 {
@@ -76,7 +78,7 @@ mod tests {
 
     #[test]
     fn is_prime_tests() {
-        assert_eq!(is_prime(1), true);
+        assert_eq!(is_prime(1), false);
         assert_eq!(is_prime(5), true);
         assert_eq!(is_prime(7), true);
         assert_eq!(is_prime(13), true);

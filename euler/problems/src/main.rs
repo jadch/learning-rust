@@ -1,8 +1,8 @@
-mod problem_6;
+mod problem_7;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_6::sum_square_difference(100);
+    let solution = problem_7::nth_prime(6);
     println!("solution: {}", solution);
 }

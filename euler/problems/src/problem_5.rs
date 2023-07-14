@@ -36,16 +36,21 @@ pub fn smallest_multiple(limit: i64) -> i64 {
 }
 
 pub fn is_prime(number: i64) -> bool {
-    if number % 2 == 0  {
+    let mut k: i64 = 1;
+
+    if vec![1, 2, 3, 5].iter().any(|&x| x == number) {
+        return true;
+    }
+
+    if number % 2 == 0 || number % 5 == 0 || number % 3 == 0 {
         return  false;
     }
 
-    let mut num = 3;
-    while num <= number.sqrt() {
-        if number % num == 0 {
+    while (6 * k + 1) <= number.sqrt() {
+        if number % (6 * k + 1) == 0 || number % (6 * k + 5) == 0 {
             return false;
         }
-        num += 2;
+        k += 1;
     }
     return true;
 }
@@ -71,8 +76,13 @@ mod tests {
 
     #[test]
     fn is_prime_tests() {
+        assert_eq!(is_prime(1), true);
+        assert_eq!(is_prime(5), true);
         assert_eq!(is_prime(7), true);
         assert_eq!(is_prime(13), true);
+        assert_eq!(is_prime(17317), true);
+
         assert_eq!(is_prime(60), false);
+        assert_eq!(is_prime(17318), false);
     }
 }

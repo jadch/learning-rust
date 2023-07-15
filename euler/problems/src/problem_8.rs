@@ -30,9 +30,9 @@ product. What is the value of this product?
 
 (adjacent = only left-right, not up-down too)
 
-SOLUTION:
+SOLUTION: brute force
 
-ANSWER:
+ANSWER: 23514624000
 */
 
 pub fn largest_product_in_series(i: i32) -> u128 {

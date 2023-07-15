@@ -1,8 +1,8 @@
-mod problem_8;
+mod problem_9;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_8::largest_product_in_series(13);
+    let solution = problem_9::special_pythagorean_triplet();
     println!("solution: {}", solution);
 }

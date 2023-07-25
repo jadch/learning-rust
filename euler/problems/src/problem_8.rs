@@ -62,7 +62,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn nth_prime_tests() {
+    fn largest_product_in_series_tests() {
         assert_eq!(largest_product_in_series(4), 5832);
         assert_eq!(largest_product_in_series(13), 23514624000);
     }

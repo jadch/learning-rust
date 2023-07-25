@@ -29,7 +29,6 @@ The product of these numbers is 26 * 63 * 78 * 14 = 1788696.
 What is the greatest product of four adjacent numbers in the same direction (up,
 down, left, right, or diagonally) in the 20 * 20 grid ?
 
-
 SOLUTION: brute force
 
 ANSWER: 70600674
@@ -95,7 +94,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn nth_prime_tests() {
+    fn largest_product_in_grid_tests() {
         assert_eq!(largest_product_in_grid(), 70600674);
     }
 }

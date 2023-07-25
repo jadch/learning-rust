@@ -38,7 +38,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn nth_prime_tests() {
+    fn summation_of_primes_tests() {
         assert_eq!(summation_of_primes(10), 17);
         assert_eq!(summation_of_primes(2000000), 142913828922);
     }

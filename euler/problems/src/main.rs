@@ -1,9 +1,8 @@
-mod problem_5;
-mod problem_10;
+mod problem_11;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_10::summation_of_primes(2000000);
+    let solution = problem_11::largest_product_in_grid();
     println!("solution: {}", solution);
 }

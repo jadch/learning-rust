@@ -1,8 +1,8 @@
-mod problem_9;
+mod problem_13;
 
 fn main() {
     println!("computing solution...");
 
-    let solution = problem_9::special_pythagorean_triplet();
+    let solution = problem_13::large_sum();
     println!("solution: {}", solution);
 }

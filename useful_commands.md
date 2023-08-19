@@ -1,4 +1,5 @@
 - see rust version: `rustc --version`
+- updating rust version: `rustup update`
 - see cargo version: `cargo --version`
 
 - creating a new project with cargo: `cargo new [project name]`
